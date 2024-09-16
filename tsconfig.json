@@ -22,6 +22,8 @@
     "strictBindCallApply": true,
     "noImplicitThis": true,
     "alwaysStrict": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
 
     /* Module Resolution Options */
     "moduleResolution": "node",
