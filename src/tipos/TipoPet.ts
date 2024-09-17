@@ -1,11 +1,11 @@
 import EnumEspecie from "../enum/EnumEspecie";
 
-interface IPet {
+type TipoPet = {
   id: number;
   nome: string;
   especie: EnumEspecie;
-  dataNascimento: Date;
   adotado: boolean;
-}
+  dataDeNascimento: Date;
+};
 
-export default IPet;
+export default TipoPet;
